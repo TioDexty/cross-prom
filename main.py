@@ -177,4 +177,4 @@ def clear_list(message):
 
 
 if __name__ == "__main__":
-    server.run(host="103.209.64.19", port=int(environ.get('PORT', 6667)))
+    server.run(host="182.72.92.222", port=int(environ.get('PORT', 8080)))
