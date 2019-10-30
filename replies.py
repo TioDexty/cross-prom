@@ -1,4 +1,4 @@
-start_reply = "Hi, send me some channels with the <code>/add</code> command. For example:\n\n<code>/add @techmind - all about tech</code>"
+start_reply = "Hi, send me some channels with the <code>/add</code> command. For example:\n\n<code>/add @channelname - all about tech</code>"
 help_reply = """These are the commands you can use:
 
 <code>/start</code> - display start message
