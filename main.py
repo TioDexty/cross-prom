@@ -3,6 +3,24 @@ import telebot
 from flask import Flask, request
 import config
 import replies
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, BaseFilter, RegexHandler, ConversationHandler, CallbackQueryHandler
+from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, InlineKeyboardButton, InlineKeyboardMarkup, ForceReply
+from telegram.error import TelegramError, BadRequest ,TimedOut, ChatMigrated, NetworkError
+from oauth2client.service_account import ServiceAccountCredentials
+from gspread.exceptions import CellNotFound
+from datetime import datetime, timedelta
+from bs4 import BeautifulSoup
+from emoji import emojize
+import itertools as it
+import telegram
+import requests
+import logging
+import gspread
+import lxml
+import json
+import os
+import re
+
 
 bot = telebot.TeleBot(config.TOKEN)
 server = Flask(__name__)
