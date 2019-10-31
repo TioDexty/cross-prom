@@ -1,4 +1,4 @@
-start_reply = "Hi, send me some channels with the <code>/add</code> command. For example:\n\n<code>/add @channelname - all about tech</code>"
+start_reply = "Hi, this bot by @Sir_God send me some channels with the <code>/add</code> command. For example:\n\n<code>/add @channelname - all about tech</code>"
 help_reply = """These are the commands you can use:
 
 <code>/start</code> - display start message
@@ -14,7 +14,7 @@ size_set = "Minimum channel size has been set to {0} members."
 ban_member = "@{0} has been banned."
 
 #ERRORS
-enter_chan = "Please enter a channel."
+enter_chan = "Please enter a valid channel."
 long_name = "The name is too long."
 no_chans = "No channels are available."
 admin_only = "This is an admin-only command."
